@@ -42,21 +42,22 @@ export default function TextForm(props) {
     // setText("Ahmed");
     return (
         <div>
-            <div className="container mb-3 my-3" style={{border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px'}}>
+            <div className="container mb-3 my-3" style={{ border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px' }}>
                 <label htmlFor="exampleFormControlInput1" className="form-label"><h2>{props.name}</h2> </label>
                 <textarea type="text" style={{ backgroundColor: props.mode === 'dark' ? 'black' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} className="form-control my-2" onChange={HandleOnChange} id="exampleFormControlInput1" value={text} placeholder="Enter text here" />
 
-                <button className="btn btn-primary my-2" onClick={HandleUpClick}>Convert to UpperCase</button>
-                <button className="btn btn-primary mx-2" onClick={HandleLowClick}>Convert to LowerCase</button>
-                <button className="btn btn-primary" onClick={HandleRemoveClick}>Clear Text</button>
+                <div class="container my-2">
+                    <button class="btn btn-primary mx-2 my-2">Convert to UpperCase</button>
+                    <button class="btn btn-primary mx-2 my-2">Convert to LowerCase</button>
+                    <button class="btn btn-primary mx-2 my-2">Clear Text</button></div>
             </div>
 
-            <div className="container my-3" style={{border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px'}}>
+            <div className="container my-3" style={{ border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px' }}>
                 <h1>Your text summary</h1>
                 <p> <b>Count:</b> {text.split(" ").length - 1} Words and {text.length} Characters</p>
                 <p> <b>Time:</b> {0.008 * text.split(" ").length - 0.008} Minutes to Read</p>
                 <h2>Preview</h2>
-                <div className="container my-3" style={{border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px'}}>
+                <div className="container my-3" style={{ border: props.mode === 'dark' ? '2px solid white' : '2px solid black', borderRadius: '8px' }}>
                     <p>{text}</p>
                 </div>
             </div>
