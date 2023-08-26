@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WordInfo/static/css/main.e6c13ad2.css",
-    "main.js": "/WordInfo/static/js/main.d55a789e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/WordInfo/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/WordInfo/index.html",
-    "main.e6c13ad2.css.map": "/WordInfo/static/css/main.e6c13ad2.css.map",
-    "main.d55a789e.js.map": "/WordInfo/static/js/main.d55a789e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/WordInfo/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/4hmed7ounas/WordInfo.git/static/css/main.e6c13ad2.css",
+    "main.js": "/4hmed7ounas/WordInfo.git/static/js/main.79687d99.js",
+    "static/js/787.28cb0dcd.chunk.js": "/4hmed7ounas/WordInfo.git/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/4hmed7ounas/WordInfo.git/index.html",
+    "main.e6c13ad2.css.map": "/4hmed7ounas/WordInfo.git/static/css/main.e6c13ad2.css.map",
+    "main.79687d99.js.map": "/4hmed7ounas/WordInfo.git/static/js/main.79687d99.js.map",
+    "787.28cb0dcd.chunk.js.map": "/4hmed7ounas/WordInfo.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d55a789e.js"
+    "static/js/main.79687d99.js"
   ]
 }
